@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5O8IIF47+XC/CSC+O7iXXmAG2ZEfp01WPlrG0CE9tgIWrX0I4q5p8RgpR1x6RD/2ULb+lxfLhxehxJLXAUJRPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aahame425\\Desktop\\RegEx Validator\\RegEx Validator.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aahame425\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\aahame425\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "C:\\Users\\aahame425\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.38.3\\microsoft.powerapps.msbuild.pcf.1.38.3.nupkg.sha512"
+  ],
+  "logs": []
+}
