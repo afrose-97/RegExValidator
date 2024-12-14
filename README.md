@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/0f8faeb0-d1ab-48ae-ad51-833177a18834)
 # RegEx Validator PCF Control
 
 This repository provides a custom **PowerApps Component Framework (PCF)** control to validate and manipulate text using regular expressions. The control is designed to simplify complex text processing within PowerApps for both citizen and pro developers.
@@ -112,6 +112,7 @@ This approach allows you to apply different styles dynamically within PowerApps 
 **Output:**
 - `Hello World 123`
 
+
 ### Example 2: Format Phone Numbers
 
 **Input:**
@@ -120,6 +121,12 @@ This approach allows you to apply different styles dynamically within PowerApps 
 
 **Output:**
 - `(123) 456-7890`
+
+---
+
+**Plain PCF Label Text with Input and Output**.                                                                                                                                   ![image](https://github.com/user-attachments/assets/dbdeeb8d-e8ce-4712-9f42-32a29d58b2cc)
+**PCF Label Text Used in a Gallery.**                                                                                                                                           ![image](https://github.com/user-attachments/assets/6c358d77-fefd-4539-ab25-4b2f8a85b3e9)
+**Applying Custom Styling Using “HTMLText” control with PCF Label Text Control.**                                                                                                ![image](https://github.com/user-attachments/assets/92ea3b37-6b2a-4141-99a8-9135f89aa197)                                                                                    ![image](https://github.com/user-attachments/assets/524ff7ef-ec76-49a5-9754-f20a7ba6ab95)
 
 ---
 
