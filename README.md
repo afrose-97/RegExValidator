@@ -132,7 +132,7 @@ We welcome contributions from the community! To contribute:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [https://github.com/afrose-97/RegExValidator/blob/master/LICENSE.txt](LICENSE) file for details.
 
 ---
 
