@@ -60,7 +60,7 @@ This repository provides a custom **PowerApps Component Framework (PCF)** contro
 
 3. Example configuration:
    - **LabelText:** `Sample Input Text`
-   - **RegEx:** `inputText.replace(/[^a-zA-Z0-9\s]/g, '')`  
+   - **RegEx:** `LabelText.replace(/[^a-zA-Z0-9\s]/g, '')`  
      (This regex removes all special characters except spaces.)
 
 ---
@@ -73,13 +73,19 @@ This repository provides a custom **PowerApps Component Framework (PCF)** contro
 |----------------|---------------|-----------------------------------------------------|
 | **LabelText**  | String        | The input text to be processed.                    |
 | **RegEx**      | String (JS)   | The regular expression to apply.                   |
-| **OutputText** | String        | The processed output text, usable in other controls.|
+| **RegExValidatorOutput** | String        | The processed output text, usable in other controls.|
 
-### Styling
+### Styling Recommendations
+To customize the appearance of the output text without modifying the code:
+1. Add an HTMLText control in PowerApps.
+2. Bind the control to the output property (`RegExValidator.RegExValidatorOutput`).
+3. Apply custom CSS styles. For example:
 
-The label styles are configurable in the code. To modify:
-- Open `RegExValidatorComponent.tsx`.
-- Adjust the `style` object for the label.
+<p style="color:#28313c; font-family:Lato; font-size:12px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">
+    RegexValidator.RegExValidatorOutput
+</p>
+
+This approach allows you to apply different styles dynamically within PowerApps without needing to alter the PCF code.
 
 ---
 
