@@ -4,6 +4,12 @@ This repository provides a custom **PowerApps Component Framework (PCF)** contro
 
 ---
 
+## Solution Download
+
+You can download the managed and unmanaged solutions from the **Debug** and **Release** sections of this repository. Install the appropriate solution in your organization based on your requirements.
+
+---
+
 ## Features
 
 - Accepts **input text** and applies custom **regular expressions**.
