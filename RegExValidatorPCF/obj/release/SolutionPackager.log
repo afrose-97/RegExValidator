@@ -1,0 +1,20 @@
+2024-12-13 17:57:36.549 - Info	
+Packing C:\Users\aahame425\Desktop\RegEx Validator\RegExValidatorPCF\obj\release\Metadata to bin\release\RegExValidatorPCF.zip
+
+2024-12-13 17:57:36.567 - Info	Processing Component: Entities
+2024-12-13 17:57:36.569 - Info	Processing Component: Roles
+2024-12-13 17:57:36.573 - Info	Processing Component: Workflows
+2024-12-13 17:57:36.573 - Info	Processing Component: FieldSecurityProfiles
+2024-12-13 17:57:36.574 - Info	Processing Component: Templates
+2024-12-13 17:57:36.575 - Info	Processing Component: EntityMaps
+2024-12-13 17:57:36.576 - Info	Processing Component: EntityRelationships
+2024-12-13 17:57:36.579 - Info	Processing Component: OrganizationSettings
+2024-12-13 17:57:36.580 - Info	Processing Component: optionsets
+2024-12-13 17:57:36.581 - Info	Processing Component: CustomControls
+2024-12-13 17:57:36.590 - Info	 - RegExValidatorNS.RegExValidator
+2024-12-13 17:57:36.595 - Info	Processing Component: SolutionPluginAssemblies
+2024-12-13 17:57:36.596 - Info	Processing Component: EntityDataProviders
+2024-12-13 17:57:36.601 - Info	Processing Sharded Component Files
+2024-12-13 17:57:36.623 - Info	
+Managed Pack complete.
+

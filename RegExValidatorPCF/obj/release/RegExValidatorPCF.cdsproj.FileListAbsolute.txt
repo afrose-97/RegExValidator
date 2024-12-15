@@ -1,0 +1,2 @@
+C:\Users\aahame425\Desktop\RegEx Validator\RegExValidatorPCF\obj\release\RegExValidatorPCF.cdsproj.AssemblyReference.cache
+C:\Users\aahame425\Desktop\RegEx Validator\RegExValidatorPCF\obj\release\RegExValidatorPCF.cdsproj.CoreCompileInputs.cache

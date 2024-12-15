@@ -1,5 +1,4 @@
-
-# RegEx Validator PCF Control
+# RegEx Validator PCF (PowerApps Component Framework)
 
 This repository provides a custom **PowerApps Component Framework (PCF)** control to validate and manipulate text using regular expressions. The control is designed to simplify complex text processing within PowerApps for both citizen and pro developers.
 
@@ -12,6 +11,13 @@ This repository provides a custom **PowerApps Component Framework (PCF)** contro
 - Truncates long text with ellipses (`...`) if it exceeds the specified width.
 - Fully customizable styles for label rendering.
 - Compatible with canvas and model-driven apps.
+
+---
+
+## Limitations
+
+- Writing and testing RegEx patterns requires a basic understanding of **JavaScript** and regular expressions.
+- **Ensure the RegEx patterns are thoroughly tested to avoid unexpected errors**.
 
 ---
 
@@ -79,12 +85,17 @@ This repository provides a custom **PowerApps Component Framework (PCF)** contro
 To customize the appearance of the output text without modifying the code:
 1. Add an HTMLText control in PowerApps.
 2. Bind the control to the output property (`RegExValidator.RegExValidatorOutput`).
+<<<<<<< HEAD
 3. Apply custom CSS styles. For example:
 
 <p style="color:#28313c; font-family:Lato; font-size:12px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">
     RegexValidator.RegExValidatorOutput
 </p>
 
+=======
+3. Apply custom CSS styles.
+   
+>>>>>>> c2c10b1535a383999e579a743e7616cffb656ca6
 This approach allows you to apply different styles dynamically within PowerApps without needing to alter the PCF code.
 
 ---
@@ -116,6 +127,7 @@ This approach allows you to apply different styles dynamically within PowerApps 
 **Output:**
 - `Hello World 123`
 
+
 ### Example 2: Format Phone Numbers
 
 **Input:**
@@ -124,6 +136,24 @@ This approach allows you to apply different styles dynamically within PowerApps 
 
 **Output:**
 - `(123) 456-7890`
+
+### Example 3: Regex Chain(Normalize Whitespace and Remove Punctuation)
+
+**Input:**
+- LabelText: `This is a,, sample text.`
+- RegEx: `LabelText.replace(/^\s+|\s+$/g, '').replace(/\s{2,}/g, ' ').replace(/[.,]/g, '')`
+
+**Output:**
+- `This is a sample text`
+
+### Example 4: Regex Chain(Clean Up and Capitalize a Sentence)
+
+**Input:**
+- LabelText: `this is a TEST sentence.`
+- RegEx: `LabelText.replace(/^\s+|\s+$/g, '').replace(/\s{2,}/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase())`
+
+**Output:**
+- `This Is A Test Sentence.`
 
 ---
 
