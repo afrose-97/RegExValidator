@@ -2,13 +2,9 @@
 
 This repository provides a custom **PowerApps Component Framework (PCF)** control to validate and manipulate text using regular expressions. The control is designed to simplify complex text processing within PowerApps for both citizen and pro developers.
 
----
-
 ## Solution Download
 
 You can download the managed and unmanaged solutions from the **Debug** and **Release** sections of this repository. Install the appropriate solution in your organization based on your requirements.
-
----
 
 ## Features
 
