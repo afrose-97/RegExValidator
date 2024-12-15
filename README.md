@@ -93,7 +93,8 @@ To customize the appearance of the output text without modifying the code:
 <p style="color:#28313c; font-family:Lato; font-size:12px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">
     RegexValidator.RegExValidatorOutput
 </p>
-```html
+
+```
 
 ---
 
