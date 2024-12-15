@@ -90,17 +90,10 @@ To customize the appearance of the output text without modifying the code:
 <<<<<<< HEAD
 3. Apply custom CSS styles. For example:
 
+```html
 <p style="color:#28313c; font-family:Lato; font-size:12px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">
     RegexValidator.RegExValidatorOutput
 </p>
-
-=======
-3. Apply custom CSS styles.
-   
->>>>>>> c2c10b1535a383999e579a743e7616cffb656ca6
-This approach allows you to apply different styles dynamically within PowerApps without needing to alter the PCF code.
-
----
 
 ## Building and Deploying
 
