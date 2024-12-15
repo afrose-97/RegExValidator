@@ -14,6 +14,13 @@ This repository provides a custom **PowerApps Component Framework (PCF)** contro
 
 ---
 
+## Limitations
+
+- Writing and testing RegEx patterns requires a basic understanding of **JavaScript** and regular expressions.
+- **Ensure the RegEx patterns are thoroughly tested to avoid unexpected errors**.
+
+---
+
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
@@ -120,6 +127,24 @@ This approach allows you to apply different styles dynamically within PowerApps 
 
 **Output:**
 - `(123) 456-7890`
+
+### Example 3: Regex Chain(Normalize Whitespace and Remove Punctuation)
+
+**Input:**
+- LabelText: `This is a,, sample text.`
+- RegEx: `LabelText.replace(/^\s+|\s+$/g, '').replace(/\s{2,}/g, ' ').replace(/[.,]/g, '')`
+
+**Output:**
+- `This is a sample text`
+
+### Example 4: Regex Chain(Clean Up and Capitalize a Sentence)
+
+**Input:**
+- LabelText: `this is a TEST sentence.`
+- RegEx: `LabelText.replace(/^\s+|\s+$/g, '').replace(/\s{2,}/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase())`
+
+**Output:**
+- `This Is A Test Sentence.`
 
 ---
 
