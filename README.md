@@ -1,4 +1,4 @@
-# RegEx Validator PCF Control
+# RegEx Validator PCF (PowerApps Component Framework)
 
 This repository provides a custom **PowerApps Component Framework (PCF)** control to validate and manipulate text using regular expressions. The control is designed to simplify complex text processing within PowerApps for both citizen and pro developers.
 
