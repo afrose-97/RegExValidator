@@ -87,13 +87,15 @@ You can download the managed and unmanaged solutions from the **Debug** and **Re
 To customize the appearance of the output text without modifying the code:
 1. Add an HTMLText control in PowerApps.
 2. Bind the control to the output property (`RegExValidator.RegExValidatorOutput`).
-<<<<<<< HEAD
 3. Apply custom CSS styles. For example:
 
 ```html
 <p style="color:#28313c; font-family:Lato; font-size:12px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">
     RegexValidator.RegExValidatorOutput
 </p>
+```html
+
+---
 
 ## Building and Deploying
 
