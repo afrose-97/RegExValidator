@@ -172,4 +172,4 @@ This project is licensed under the MIT License. See the [MIT License](https://gi
 
 ### Questions or Feedback?
 
-Feel free to open an issue in the repository or contact the maintainer for any questions or feedback.
+Feel free to open an issue in the repository or contact me through posstoafrose@gmail.com for any questions or feedback.
